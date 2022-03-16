@@ -1,0 +1,55 @@
+body {
+     font-family:'Chalkduster',fantasy;
+    min-height: 600px;
+    background-image: url('https://uploads.bemparana.com.br/upload/image/noticia/noticia_228404_img1_sol.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #363636;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #000000;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+
+h2 {
+    position: center;
+    font-size:16px;
+    font-weight:bold;
+    color: #000000;
+    top: 142px;
+    left: calc(50% - 72.5px);
+    width: 145px;
+    text-align:center;
+    word-wrap: break-word;
+    }
+
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 20px;
+    right:10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+  }
